@@ -1,1 +1,1 @@
-VBA macros for useful functions in Outlook.
+VBA macros for useful functions in Microsoft Office applications including Outlook.
