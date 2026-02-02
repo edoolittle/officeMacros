@@ -1,6 +1,12 @@
-Attribute VB_Name = "SaveAttachments"
+' Attribute VB_Name = "SaveAttachments"
 ' https://deepsonline.com/blogs/vba-macro-to-save-attachments-multiple-selected-emails-outlook/
 ' Requires GetOutputDirectory() function
+
+' Requires reference to Microsoft Scripting Runtime (SCRRUN.DLL)
+' Go to Tools -> References -> check Microsoft Scripting Runtime
+' There may still be a problem; if so, see
+' See https://softwaretested.com/files/what-is-scrrun-dll/
+' Restart Outlook after following instructions re: regsvr32.exe
 
 Public Sub SaveAttachments()
 
@@ -20,7 +26,7 @@ Public Sub SaveAttachments()
   Dim fileExists As Boolean
   Dim cnt As Integer
   Dim strSubject As String
-  'Requires reference to Microsoft Scripting Runtime (SCRRUN.DLL)
+
   Dim fso As FileSystemObject
     
   Set Exp = App.ActiveExplorer
