@@ -1,4 +1,4 @@
-Attribute VB_Name = "ConvertEmailToEvent"
+' Attribute VB_Name = "ConvertEmailToEvent"
 ' https://www.datanumen.com/blogs/2-easy-ways-quickly-convert-email-meeting-invitation-outlook/
 Sub ConvertEmailToEvent()
     Dim objMail As Outlook.MailItem

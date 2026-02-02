@@ -1,4 +1,4 @@
-Attribute VB_Name = "GetOutputDirectory"
+' Attribute VB_Name = "GetOutputDirectory"
 ' https://www.deepsonline.com/blogs/vba-macro-to-save-attachments-multiple-selected-emails-outlook/
 
 Public Function GetOutputDirectory() As String

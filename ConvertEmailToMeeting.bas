@@ -1,4 +1,4 @@
-Attribute VB_Name = "ConvertEmailToMeeting"
+' Attribute VB_Name = "ConvertEmailToMeeting"
 ' https://www.datanumen.com/blogs/2-easy-ways-quickly-convert-email-meeting-invitation-outlook/
 Sub ConvertEmailToMeeting()
     Dim objMail As Outlook.MailItem
